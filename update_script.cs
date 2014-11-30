@@ -18,7 +18,7 @@ namespace updater
         static string gameName = "UNex.exe";
         static void Main(string[] args)
         {
-            Console.WriteLine("Preparing to download update");
+            Console.WriteLine("Downloading updated files");
             Thread.Sleep(1000);
             WebClient Client = new WebClient();
             Client.DownloadFile(new Uri("https://github.com/InappUser/UNexUpdates/archive/master.zip"), "updates.zip");
