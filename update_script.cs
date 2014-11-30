@@ -21,7 +21,7 @@ namespace updater
             Console.WriteLine("Preparing to download update");
             Thread.Sleep(1000);
             WebClient Client = new WebClient();
-            Client.DownloadFile(new Uri("https://github.com/InappUser/UNex/archive/updates.zip"), "updates.zip");
+            Client.DownloadFile(new Uri("https://github.com/InappUser/UNexUpdates/archive/master.zip"), "updates.zip");
             unzip();
         }
 
