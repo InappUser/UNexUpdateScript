@@ -13,7 +13,7 @@ namespace updater
     class Program
     {
 
-        static string dirName = "UNex-updates";
+        static string dirName = "UNexUpdates-master";
         static string dataName = "UNex_Data";
         static string gameName = "UNex.exe";
         static void Main(string[] args)
